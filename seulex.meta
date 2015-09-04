@@ -1,0 +1,26 @@
+;; -*- Hen -*-
+
+((egg "seulex.egg") ; This should never change
+
+ ; List here all the files that should be bundled as part of your egg.  
+
+ (files "seulex.setup" "seulex.meta" "seulex.scm" "seulex.f" "dc_lapack.f" "tests")
+
+ ; Your egg's license:
+
+ (license "GPL-3")
+
+ ; Pick one from the list of categories (see below) for your egg and
+ ; enter it here.
+
+ (category math)
+
+ ; A list of eggs seulex depends on.
+
+ (needs)
+
+ (test-depends mathh)
+
+ (author "Ivan Raikov")
+
+ (synopsis "An interface to the SEULEX package for solving systems of stiff differential and differential-algebraic equations."))
