@@ -23,6 +23,6 @@
   `(,(dynld-name "seulex") ,(dynld-name "seulex.import") )
 
   ; Assoc list with properties for your extension:
-  `((version 1.1)
+  `((version 1.2)
     ))
 
